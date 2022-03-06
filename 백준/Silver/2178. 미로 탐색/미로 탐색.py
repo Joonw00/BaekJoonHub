@@ -17,7 +17,7 @@ while True: #조건 바꿀 것
     if len(X) == 0:
         break
     x = X.pop(0)        #인덱스 0부터 반환하므로,방문처리가 된 곳은 이후 방문 시보다 값이 작다.
-    y = Y.pop(0)
+    y = Y.pop(0)        #여기가 키 포인트!!!!      BFS??
     if y == M-1 and x == N-1:
         print(fld[y][x])
         break
