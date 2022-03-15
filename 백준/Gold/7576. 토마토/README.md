@@ -30,3 +30,39 @@
 
  <p>여러분은 토마토가 모두 익을 때까지의 최소 날짜를 출력해야 한다. 만약, 저장될 때부터 모든 토마토가 익어있는 상태이면 0을 출력해야 하고, 토마토가 모두 익지는 못하는 상황이면 -1을 출력해야 한다.</p>
 
+#다른 사람의 풀이!!  
+#max(graph[])의 개념이 중요하게 쓰인 듯!!
+#나랑 다르게,모든 지점에 dp개념으로 걸린 횟수 입력함.
+
+m,n = map(int,input().split())
+graph = []
+queue = deque([])
+for i in range(n):
+    graph.append(list(map(int,input().split())))
+    
+    for j in range(m): #익은 토마토 큐에 저장
+        if graph[i][j]==1:
+            queue.append([i,j])
+            
+dx = [-1,1,0,0]
+dy = [0,0,-1,1]
+def bfs():
+    while queue:
+        x,y = queue.popleft()
+        
+        for i in range(4):
+            a = x+dx[i]
+            b = y+dy[i]
+            if 0<=a<n and 0<=b<m and graph[a][b]==0:
+                queue.append([a,b])
+                graph[a][b] = graph[x][y]+1
+bfs()
+answ = 0
+for i in graph:
+    for j in i:
+        if j==0:
+            print(-1)
+            exit(0)
+    answ = max(answ,max(i))
+print(answ-1)
+Colored
