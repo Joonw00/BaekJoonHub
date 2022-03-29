@@ -1,3 +1,5 @@
+이거 이렇게 푸는 게 맞나 근데??
+
 # [Gold I] 책 페이지 - 1019 
 
 [문제 링크](https://www.acmicpc.net/problem/1019) 
