@@ -1,3 +1,5 @@
+플레가 날먹?
+
 # [Platinum V] 고층 빌딩 - 1328 
 
 [문제 링크](https://www.acmicpc.net/problem/1328) 
