@@ -1,3 +1,5 @@
+거의 나무위키가 푼 수준인데..
+
 # [Platinum V] 캔디 분배 - 3955 
 
 [문제 링크](https://www.acmicpc.net/problem/3955) 
