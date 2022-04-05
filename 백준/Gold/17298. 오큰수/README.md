@@ -1,3 +1,16 @@
+## 코드 간소화
+stack.append(0)
+
+for i in range(1, n):
+
+    while stack and A[stack[-1]] < A[i]:
+    
+        answer[stack.pop()] = A[i]
+        
+    stack.append(i)
+
+print(*answer)
+
 # [Gold IV] 오큰수 - 17298 
 
 [문제 링크](https://www.acmicpc.net/problem/17298) 
