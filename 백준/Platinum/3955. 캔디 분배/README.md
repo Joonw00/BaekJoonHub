@@ -1,3 +1,5 @@
+어떻게 풀었지?
+
 # [Platinum V] 캔디 분배 - 3955 
 
 [문제 링크](https://www.acmicpc.net/problem/3955) 
