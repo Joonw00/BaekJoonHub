@@ -2,15 +2,15 @@ import sys
 from collections import deque
 N,L = map(int,input().split())
 A = list(map(int,sys.stdin.readline().split()))
-m = deque()
+d = deque()
 
 for i in range(N):
   if i-L>=0:
-    if m[0] == A[i-L]:
-      m.popleft()
-  while m:
-    if m[-1] <= A[i]:
+    if d[0] == A[i-L]:
+      d.popleft()
+  while d:
+    if d[-1] <= A[i]:
       break
-    m.pop()
-  m.append(A[i])
-  print(m[0],end=" ")
+    d.pop()
+  d.append(A[i])
+  print(d[0],end=" ")
