@@ -1,3 +1,5 @@
+# lis 문제라는 걸 보고 푼 문제라 한 번 다시 풀어 보는 게 좋을 듯
+
 # [Gold V] 줄세우기 - 2631 
 
 [문제 링크](https://www.acmicpc.net/problem/2631) 
