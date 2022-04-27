@@ -1,14 +1,6 @@
 # [Gold II] 2048 (Easy) - 12100 
 
-[문제 링크](https://www.acmicpc.net/problem/12100) 
-
-### 성능 요약
-
-메모리: 31340 KB, 시간: 692 ms
-
-### 분류
-
-백트래킹(backtracking), 브루트포스 알고리즘(bruteforcing), 구현(implementation), 시뮬레이션(simulation)
+# 풀이
 
 기본적으로 빡구현 문제인듯?
 재귀사용법과 단순한 구현능력을 제외하면 특이점 없음,주소ㅗ 개념을 배울 수 있었음
