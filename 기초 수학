@@ -32,3 +32,6 @@ def EEA(a,b):
     return s0
     
 ax+by = 1 에서 x
+
+4.오일러 피 함수
+{\displaystyle \phi (n)=n\prod _{p\mid n}\left(1-{\frac {1}{p}}\right)}
